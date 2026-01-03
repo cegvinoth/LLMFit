@@ -1,6 +1,6 @@
 # LLMFit
 
-**Instantly discover which Large Language Models (LLMs) can run on your local system based on available memory.**
+**Instantly discover which Large Language Models (LLMs) can actually run on your machine, before you download them.**
 
 [![C++17](https://img.shields.io/badge/C%2B%2B-17-blue.svg)](https://en.wikipedia.org/wiki/C%2B%2B17)
 [![CMake](https://img.shields.io/badge/CMake-3.15+-green.svg)](https://cmake.org/)
