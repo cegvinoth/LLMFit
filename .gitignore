@@ -1,3 +1,17 @@
+# Build directories (NEVER commit these!)
+build/
+build-*/
+cmake-build-*/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+compile_commands.json
+
 # Prerequisites
 *.d
 
@@ -36,6 +50,19 @@
 *.exe
 *.out
 *.app
+llmfit
 
-# debug information files
+# Debug information files
 *.dwo
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Test installation directories
+test-install/
+install/
